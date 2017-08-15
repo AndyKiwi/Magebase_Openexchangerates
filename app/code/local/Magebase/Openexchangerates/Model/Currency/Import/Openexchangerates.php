@@ -17,10 +17,10 @@
 class Magebase_Openexchangerates_Model_Currency_Import_Openexchangerates extends Mage_Directory_Model_Currency_Import_Abstract
 {
     /**
-     * Openexchangerates API URL
+     * Openexchangerates API URL -> has to be HTTPS request
      * @var string
      */
-    protected $_url = 'http://openexchangerates.org/api/latest.json?app_id={{APP_ID}}';
+    protected $_url = 'https://openexchangerates.org/api/latest.json?app_id={{APP_ID}}';
     protected $_messages = array();
  
      /**
